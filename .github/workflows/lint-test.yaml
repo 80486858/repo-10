@@ -273,7 +273,7 @@ jobs:
     - continue-on-error: true
       if: steps.list-changed.outputs.changed == 'true'
       name: Create kind cluster
-      uses: helm/kind-action@v1.9.0
+      uses: helm/kind-action@v1.10.0
     - continue-on-error: true
       name: Run chart-testing (install)
       run: ct install --config .github/linters/ct.yaml
