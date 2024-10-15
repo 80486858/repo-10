@@ -20,7 +20,7 @@ dependencies = [
   "dgllife==0.3.2",
   "rdkit==2023.9.5",
   "numba>=0.55.0",
-  "numpy>=1.21.0, < 2.0.0",   # not all packages have migrated to >2.0 yet
+  "numpy>= 1.21.0, < 3.0.0",   # not all packages have migrated to >2.0 yet
   "matplotlib",
   "munch>=2.5.0",
   "lmdb==1.4.1",
