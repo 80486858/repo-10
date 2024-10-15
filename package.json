@@ -73,7 +73,7 @@
     "graceful-fs": "^4.2.4",
     "husky": "^8.0.1",
     "image-size": "^0.9.1",
-    "inquirer": "^8.1.5",
+    "inquirer": "^12.0.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.20",
     "lodash-es": "^4.17.21",
