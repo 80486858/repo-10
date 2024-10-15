@@ -271,7 +271,7 @@ jobs:
         disabled."
     - continue-on-error: true
       name: Build Docker Image (with optional Push)
-      uses: docker/build-push-action@v6.5.0
+      uses: docker/build-push-action@v6.9.0
       with:
         context: .
         file: images/test-ubuntu-git.Dockerfile
