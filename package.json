@@ -80,7 +80,7 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "autocannon": "^7.0.0",
-    "chai": "^4.1.2",
+    "chai": "^5.1.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.44.0",
