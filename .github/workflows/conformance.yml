@@ -281,7 +281,7 @@ jobs:
         OCI_TEST_PULL: 1
         OCI_TEST_PUSH: 1
       name: Run OCI Distribution Spec conformance tests
-      uses: opencontainers/distribution-spec@v1.0.1
+      uses: opencontainers/distribution-spec@v1.1.0
     - continue-on-error: true
       name: Move test results
       run: mkdir -p .out/ && mv {report.html,junit.xml} .out/
