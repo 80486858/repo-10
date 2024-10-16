@@ -264,7 +264,7 @@ jobs:
       run: cargo install cargo-ndk --version "^2"
     - continue-on-error: true
       name: Setup Java
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         distribution: temurin
         java-version: '17'
