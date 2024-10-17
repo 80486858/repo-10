@@ -556,7 +556,7 @@ jobs:
     - continue-on-error: true
       if: steps.list-changed.outputs.changed == 'true'
       name: setup minikube
-      uses: manusa/actions-setup-minikube@v2.12.0
+      uses: manusa/actions-setup-minikube@v2.13.0
       with:
         github token: ${{ inputs.github-token }}
         kubernetes version: v1.30.0
