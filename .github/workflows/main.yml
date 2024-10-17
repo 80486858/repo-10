@@ -258,7 +258,7 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
     - continue-on-error: true
       name: Build and push
-      uses: docker/build-push-action@v2
+      uses: docker/build-push-action@v6
       with:
         push: true
         tags: infobip/${{ github.event.repository.name }}:latest
