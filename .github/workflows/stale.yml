@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/stale@v4
+      uses: actions/stale@v9
       with:
         days-before-close: 5
         days-before-stale: 30
